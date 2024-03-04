@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TGM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- dialog -->
+  <div id="dialog" class="dialog">
+    <div class="dialog-content">
+      <img src="images/kojitou.png" style="margin-right: 10px;">
+      <span class="close-button" onclick="closeDialog()">&times;</span>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <div class="row">
+        <a class="navbar-brand d-flex align-items-center " href="index.html"><img src="images/logo.png"
+            style="margin-right: 10px;">
+          <span style="color: #E8DD95; font-size: 21px;">株式会社ＴＧマネジメント</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+          aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+      </div>
+  
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link" style="font-size: 18px;">ホーム</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link" style="font-size: 18px;">会社情報</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link" style="font-size: 18px;">サービス</a></li>
+          <li class="nav-item"><a href="properties.html" class="nav-link" style="font-size: 18px;">物件情報</a></li>
+          <li class="nav-item active"><a href="contact.html" class="nav-link" style="font-size: 18px;">お問合せ</a></li>
+          <li class="nav-item">
+            <div class="dropdown nav-link">
+              <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 18px;">
+                言語
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">日本語</a></li>
+                <li><a class="dropdown-item" href="#">简体中文</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+  
+  
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg1_2.jpg');"
+    data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+        <div class="col-md-9 ftco-animate pb-0 text-center">
+          <!-- <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Contact <i class="fa fa-chevron-right"></i></span></p> -->
+          <h1 class="mb-3 bread">お問合せ</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section contact-section" >
+    <div class="container">
+      <div class="row block-9 justify-content-center mb-5">
+        <div class="col-md-8 mb-md-5">
+          <h2 class="text-center">何か質問がありましたら <br>お気軽にメッセージをお送りください</h2>
+          <form action="#" class="bg-light p-5 contact-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="あなたのお名前">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="あなたのメールアドレス">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="タイトル">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="メッセージ"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="送信" class="btn btn-primary py-3 px-5" onclick="showDialog()">
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <div class="row d-flex mb-5 contact-info justify-content-center">
+        <div class="col-md-8" >
+          <div class="row mb-5">
+            <div class="col-md-4 text-center py-4">
+              <div class="icon">
+                <span class="fa fa-map"></span>
+              </div>
+              <p><span>住所:</span> 〒542-0073 大阪市中央区日本橋1-14-13 サンオフィス日本橋403</p>
+            </div>
+            <div class="col-md-4 text-center border-height py-4">
+              <div class="icon">
+                <span class="fa fa-phone"></span>
+              </div>
+              <p><span>電話:</span> （申請中）<a href="tel:06-4705-7666"></a></p>
+            </div>
+            <div class="col-md-4 text-center py-4">
+              <div class="icon">
+                <span class="fa fa-paper-plane"></span>
+              </div>
+              <p><span>Eメール:</span> <a href="mailto:info@tg-m.co.jp">info@tg-m.co.jp</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="ftco-footer ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+  
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-4">
+            <h2 class="ftco-heading-2">ＴＧマネジメント</h2>
+            <ul class="list-unstyled">
+              <div onclick="showDialog()">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>〒542-0073 大阪市中央区</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>&nbsp;日本橋1-14-13 </a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>&nbsp;サンオフィス日本橋403</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>TEL （申請中）</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>E-mail info@tg-m.co.jp</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-4">
+            <h2 class="ftco-heading-2">コミュニティ</h2>
+            <ul class="list-unstyled">
+              <div onclick="showDialog()">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>物件情報検索</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>内見予約機能</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>物件データ連動</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>レビュー</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-4">
+            <h2 class="ftco-heading-2">私たちの物語</h2>
+            <ul class="list-unstyled">
+              <div onclick="showDialog()">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>チームの紹介</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>キャリア</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>メンバー応募</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">会社情報</h2>
+            <ul class="list-unstyled">
+              <div onclick="showDialog()">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>会社概要</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>支店一覧</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>経営理念・クレド</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>採用情報</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">ご質問</h2>
+            <ul class="list-unstyled">
+              <div onclick="showDialog()">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>よくある質問</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>お問合せ</a></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+  
+          <p>Copyright &copy; 2024 TGM All rights reserved.<a target="_blank"></a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function showDialog() {
+      event.preventDefault();
+      document.getElementById('dialog').style.display = "flex";
+    }
+
+    function closeDialog() {
+      event.preventDefault();
+      document.getElementById('dialog').style.display = "none";
+    }
+  </script>
+  
+  <script>
+    const dropdown = document.querySelector('.dropdown');
+
+    dropdown.addEventListener('click', () => {
+      const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+      if (dropdownMenu.classList.contains('show')) {
+        dropdownMenu.classList.remove('show');
+      } else {
+        dropdownMenu.classList.add('show');
+      }
+    });
+  </script>
+  
+  <style>
+    /* .nav-item a:focus {
+  			background-color: #000;
+  		} */
+  
+    .dropdown-menu.show {
+      display: block;
+    }
+  
+    .dropdown-menu {
+      display: none;
+    }
+  
+    .dropdown-item {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-link:hover {
+      cursor: pointer;
+    }
+  
+    .navbar {
+      position: fixed;
+      left: 0;
+      z-index: 100;
+      background-color: #000000 !important;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  
+    .navbar.scrolled {
+      background-color: #000000 !important;
+      /* color: #ffffff !important; */
+    }
+  
+    .navbar.scrolled .nav-link {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+    }
+  
+    @media (max-width: 768px) {
+      .navbar-brand {
+        position: static;
+      }
+    }
+  
+    .navbar .nav-item .nav-link .active {
+      color: #ffffff !important;
+      /* 设置字体颜色为白色  !important */
+    }
+  
+    .navbar .nav-link {
+      color: #ffffff
+    }
+  </style>
+  <style>
+    #dialog {
+      display: none;
+      /* 默认情况下，对话框是隐藏的 */
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 656px;
+      height: 480px;
+      background-color: #B0E0E6;
+      z-index: 10;
+      justify-content: center;
+      align-items: center;
+      /* background-image: url(images/kojitou.png); */
+    }
+  
+    #dialog .dialog-content {
+      width: 50%;
+      height: 50%;
+      text-align: center;
+      /* background-color: #808080;  */
+      background-color: #B0E0E6;
+    }
+  
+    #dialog .close-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    #dialog .close-button:hover {
+      color: #000;
+    }
+  
+    #dialog img {
+      margin: 0 auto;
+      /* width: 328px;
+  			height: 240px; */
+    }
+  </style>
+</body>
+
+</html>
